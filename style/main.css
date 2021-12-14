@@ -85,5 +85,5 @@ header nav a:hover { /*quando o mouse passar por cima do link*/
     background-color: rgba(0,0,0,0.8); /*quando o mouse passar por cima do botao*/
 }
 .botao i {
-    margin-right: 2px; /*para o icone ficar ao lado do texto*/
+    margin-right: 8px; /*para o icone ficar ao lado do texto*/
 }
