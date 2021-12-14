@@ -95,10 +95,3 @@ header nav a:hover { /*quando o mouse passar por cima do link*/
 .filme-principal .container {
     width: 100%;
 }
-
-.box-filme {
-    height: 100%;
-    width: 100%;
-    display: block;
-
-}
