@@ -59,9 +59,31 @@ header nav a:hover { /*quando o mouse passar por cima do link*/
 }
 
 .filme-principal .descricao {
+    margin-top: 2%;
     margin-bottom: 40px; 
 }
 
-.titulo {
+.filme-principal .titulo {
+    margin-top: 3%;
     font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,0.5); /*para o fundo do botao ficar transparente*/
+    color: #fff;
+    font-size: 17px;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 5px; /*para o botao ficar com borda arredondada*/
+    border: none; 
+    cursor: pointer; /*para o cursor ficar como um ponteiro*/
+    transition: 0.2s ease all; /*para o botao ficar com transição*/
+}
+
+.botao:hover {
+    background-color: rgba(0,0,0,0.8); /*quando o mouse passar por cima do botao*/
+}
+.botao i {
+    margin-right: 2px; /*para o icone ficar ao lado do texto*/
 }
