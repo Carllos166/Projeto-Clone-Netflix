@@ -57,25 +57,25 @@ header nav a:hover { /*quando o mouse passar por cima do link*/
 
 
 .filme-principal .descricao {
-    margin-top: 2%;
+    margin-top: 10px;
     margin-bottom: 40px; 
 }
 
 
 .filme-principal .titulo {
-    margin-top: 3%;
+    margin-top: 15%;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .botao {
     background-color: rgba(0,0,0,0.5); /*para o fundo do botao ficar transparente*/
+    border: none; 
     color: #fff;
     font-size: 17px;
-    padding: 10px;
+    padding: 15px 30px;
     margin-right: 15px;
     border-radius: 5px; /*para o botao ficar com borda arredondada*/
-    border: none; 
     cursor: pointer; /*para o cursor ficar como um ponteiro*/
     transition: 0.2s ease all; /*para o botao ficar com transição*/
 }
@@ -93,12 +93,12 @@ header nav a:hover { /*quando o mouse passar por cima do link*/
 }
 
 .filme-principal .container {
-    width: 100%;
+    width: 70%;
 }
 
 .box-filme{
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
     display: block;
     cursor: pointer;
 }
