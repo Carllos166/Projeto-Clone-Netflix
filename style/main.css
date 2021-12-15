@@ -1,6 +1,6 @@
-:root {
-    --vermelho: #E50914;
-    --preta: #141414;
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
 }
 
 * { /* Tudo */
@@ -8,29 +8,26 @@
     padding: 0;   
     box-sizing: border-box;
 }
-
 /*elementos base*/
-
-body {
-    background: var(--preta);
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-
+body{
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color:white;
 }
+
 
 header .container {
     display: flex; /*para o menu ficar em linha*/
     flex-direction: row;
     align-items: center;
     justify-content: space-between; /*para o menu ficar alinhado ao centro*/
-    
 }
 
-header .logo{
+header .logo { 
+    margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
-    font-size: 40px;
-    margin-left: 5px;
+    font-size:40px;
 }
 
 header nav a {
@@ -39,12 +36,12 @@ header nav a {
     margin-right: 10px; /*distancia entre os links*/
 }
 
+
 header nav a:hover { /*quando o mouse passar por cima do link*/
     color: #fff;
 }
 
 /*filme principal*/
-
 .filme-principal {
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)100%), url('/img/RickAndMorty.jpg');
@@ -58,10 +55,12 @@ header nav a:hover { /*quando o mouse passar por cima do link*/
     align-items: flex-start; /*centraliza o texto*/
 }
 
+
 .filme-principal .descricao {
     margin-top: 2%;
     margin-bottom: 40px; 
 }
+
 
 .filme-principal .titulo {
     margin-top: 3%;
@@ -88,6 +87,7 @@ header nav a:hover { /*quando o mouse passar por cima do link*/
     margin-right: 8px; /*para o icone ficar ao lado do texto*/
 }
 
+
 .container {
     margin-left: 20px;
 }
@@ -95,3 +95,33 @@ header nav a:hover { /*quando o mouse passar por cima do link*/
 .filme-principal .container {
     width: 100%;
 }
+
+.box-filme{
+    height: auto;
+    width: auto;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-filmes{
+    margin-top:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
